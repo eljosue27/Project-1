@@ -83,7 +83,6 @@ form {
 }
 input {
   display: inline-block;
-  border-radius: 3px;
   font-family: "AdiHaus";
   box-sizing: border-box;
 }
