@@ -45,7 +45,7 @@ body {
   font-family: "AdiHaus";
   font-style: normal;
   text-align: center;
-  padding: 20px;
+  padding: 20px 30px;
 }
 h2 {
   margin: 19px 0;
@@ -63,6 +63,7 @@ h2 {
 .bold-text {
   font-weight: 700;
   line-height: 50px;
+  margin-top: 0;
 }
 p {
   font-weight: 400;
@@ -84,10 +85,9 @@ form {
 input {
   display: inline-block;
   font-family: "AdiHaus";
-  box-sizing: border-box;
 }
 #input-text {
-  padding: 12px;
+  padding: 15px;
   width: 70%;
 }
 #submit {
@@ -117,13 +117,12 @@ input {
   .mobile-image {
     display: none;
   }
-
   .desktop-image {
     display: block;
     width: 50%;
-    background: url("https://assets.codepen.io/6060109/athlete-big.png");
+    background: url("https://assets.codepen.io/6060109/athlete-girl.png");
     background-size: cover;
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 35% 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 38% 100%);
   }
   .text-container {
     text-align: left;
